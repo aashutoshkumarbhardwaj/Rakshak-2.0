@@ -3,6 +3,8 @@
 .next
 .vscode
 
+node_modules/
+
 .env.local
 .env.development.local
 # OS
@@ -71,3 +73,17 @@ coverage/
 *.bak
 *.tmp
 *.temp
+
+
+node_modules/
+.env
+.DS_Store
+dist/
+build/
+.next/
+out/
+*.log
+npm-debug.log*
+yarn-debug.log*
+.vscode/
+.idea/
